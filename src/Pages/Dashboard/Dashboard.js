@@ -5,7 +5,10 @@ const Dashboard = () => {
     return (
         <div className="container mx-auto">
             <h2 className="text-xl">Dashboard &gt; Order Room</h2>
-            <Products></Products>
+            <div className="grid grid-cols-[2fr_1fr]">
+                <Products></Products>
+                <div></div>
+            </div>
         </div>
     );
 };
